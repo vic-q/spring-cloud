@@ -21,7 +21,7 @@ public class UserApplication {
         return "helloUser";
     }
 
-    @RequestMapping(value = "/api/helloUser")
+    @RequestMapping(value = "/helloUser2")
     public String api() {
         return "api/helloUser";
     }
